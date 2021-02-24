@@ -5,8 +5,10 @@
 
 import pytest
 import json
-from apiautotest.zonghe.caw import DataRead
-from apiautotest.zonghe.caw.BaseRequests import BaseRequests
+from ..caw import DataRead
+# from apiautotest.zonghe.caw import DataRead
+from ..caw.BaseRequests import BaseRequests
+# from apiautotest.zonghe.caw.BaseRequests import BaseRequests
 
 
 @pytest.fixture(scope='session')
